@@ -1,1 +1,80 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
 
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list a {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+/* CUSTOM PROPERTIES
+-----------------------------------------------*/
+:root {
+  --darkgray: #333333;
+  --whitesmoke: #F5F5F5;
+  --darkslateblue: #483D8B;
+  --color-dark: var(--darkgray);
+  --color-light: var(--whitesmoke);
+  --color-primary: var(--darkslateblue);
+  --font-size-h1: 3.0rem;
+  --font-size-h2: 2.0rem;
+  --font-size-base: 0.9375rem;
+  --font-size-tagline: 1.75rem;
+  --font-size-small: 0.7rem;
+}
+
+/* Global Styles
+-----------------------------------------------*/
+/* Alternative box model */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: var(--font-size-base);
+  line-height: 1.4;
+}
+
+/* Header + Nav
+-----------------------------------------------*/
+header {
+  height: 100%;
+  background-image: linear-gradient(rgba(72, 61, 139, 0.5), rgba(72, 61, 139, 0.5)), url(../images/bg-snowdon.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  color: var(--color-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

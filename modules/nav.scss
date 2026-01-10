@@ -1,1 +1,24 @@
 @use "./media.scss";
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+
+.nav-list{
+  display: flex;
+  justify-content: center;
+}
+.nav-list a {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav-list a:hover {
+  text-decoration: underline;
+}
