@@ -1,14 +1,11 @@
+@use "./mixins";
+
 .about {
+	@include mixins.default-wrap;
 	color: var(--color-light);
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 60px;
 	background: var(--color-primary);
 	color: var(--color-light);
-
-	&__wrap {
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 60px;
-	}
 }

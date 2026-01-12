@@ -85,17 +85,15 @@ header {
 }
 
 .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px;
   color: var(--color-light);
   max-width: 800px;
   margin: 0 auto;
   padding: 60px;
   background: var(--color-primary);
   color: var(--color-light);
-}
-.about__wrap {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 60px;
 }
 
 /*# sourceMappingURL=styles.css.map */
