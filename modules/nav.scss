@@ -1,8 +1,3 @@
-.bg-dark a,
-.bg-primary a {
-	color: var(--color-light);
-}
-
 .nav {
 	background: var(--color-dark);
 	position: fixed;
@@ -15,7 +10,7 @@
 		justify-content: center;
 	}
 	&__list a {
-		color: #fff;
+		color: var(--color-light);
 		padding: 20px;
 		display: inline-block;
 		text-decoration: none;
@@ -24,5 +19,10 @@
 	}
 	&__list a:hover {
 		text-decoration: underline;
+	}
+	&__reset {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
 	}
 }
