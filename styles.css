@@ -85,7 +85,7 @@ nav {
 -----------------------------------------------*/
 header {
   height: 100%;
-  background-image: linear-gradient(rgba(72, 61, 139, 0.5), rgba(72, 61, 139, 0.5)), url(../images/bg-snowdon.png);
+  background-image: linear-gradient(rgba(72, 61, 139, 0.5), rgba(72, 61, 139, 0.5)), url(https://mark-grayson1.github.io/personal-portfolio/images/bg-snowdon.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
