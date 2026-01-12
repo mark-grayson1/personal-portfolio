@@ -84,11 +84,15 @@ header {
   text-align: center;
 }
 
-.bg-primary a {
+.about {
+  color: var(--color-light);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px;
+  background: var(--color-primary);
   color: var(--color-light);
 }
-
-.content-wrap {
+.about__wrap {
   max-width: 800px;
   margin: 0 auto;
   padding: 60px;
