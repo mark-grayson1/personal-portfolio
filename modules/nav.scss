@@ -3,30 +3,26 @@
 	color: var(--color-light);
 }
 
-.bg-dark {
+.nav {
 	background: var(--color-dark);
-	color: var(--color-light);
-}
-
-nav {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	height: 60px;
-}
-
-.nav-list {
-	display: flex;
-	justify-content: center;
-}
-.nav-list a {
-	padding: 20px;
-	display: inline-block;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-.nav-list a:hover {
-	text-decoration: underline;
+	&__list {
+		display: flex;
+		justify-content: center;
+	}
+	&__list a {
+		color: #fff;
+		padding: 20px;
+		display: inline-block;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	&__list a:hover {
+		text-decoration: underline;
+	}
 }
