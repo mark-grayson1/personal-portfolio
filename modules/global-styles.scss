@@ -21,3 +21,25 @@ body {
 	font-size: var(--font-size-base);
 	line-height: 1.4;
 }
+
+a {
+	color: var(--color-dark);
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	font-size: var(--font-size-h1);
+}
+h2 {
+	font-size: var(--font-size-h2);
+}
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+	font-family: "Numans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}

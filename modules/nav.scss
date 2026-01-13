@@ -5,10 +5,12 @@
 	left: 0;
 	right: 0;
 	height: 60px;
+
 	&__list {
 		display: flex;
 		justify-content: center;
 	}
+
 	&__list a {
 		color: var(--color-light);
 		padding: 20px;
@@ -17,9 +19,11 @@
 		text-transform: uppercase;
 		font-weight: bold;
 	}
+
 	&__list a:hover {
 		text-decoration: underline;
 	}
+
 	&__reset {
 		list-style-type: none;
 		margin: 0;

@@ -1,37 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mark Grayson, Tech. Consultant</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Numans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- //  HEADER / INTRO  // -->
-    <header>
-      <nav class="nav">
-        <ul class="nav__reset nav__list">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#cv">CV</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <hgroup>
-        <h1>Mark Grayson</h1>
-        <p class="tagline">Tech. Consultant</p>
-      </hgroup>
-    </header>
-    <main>
-      <!-- //  ABOUT  // -->
-      <section id="class" class="about">
-        <h2>About</h2>
-        <p>I graduated from university in Aberdeen with a degree in computing. I then moved to Malvern in England to join a scientific company as a software engineer. Over the years I have contributed to many successful products during my time spent working as a software developer. 
-        </p>  
-        <p>This site is a single page, to learn more keep scrolling or use navigation bar.</p>
-      </section><!-- end of ABOUT -->
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mark Grayson, Tech. Consultant</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Numans&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<!-- //  HEADER / INTRO  // -->
+		<header>
+			<nav class="nav">
+				<ul class="nav__reset nav__list">
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#cv">CV</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<hgroup>
+				<h1>Mark Grayson</h1>
+				<p class="tagline">Tech. Consultant</p>
+			</hgroup>
+		</header>
+		<main>
+			<!-- //  ABOUT  // -->
+			<section id="about" class="about">
+				<div class="about__wrap">
+					<h2>About</h2>
+					<p>
+						I graduated from university in Aberdeen with a degree in computing.
+						I then moved to Malvern in England to join a scientific company as a
+						software engineer. Over the years I have contributed to many
+						successful products during my time spent working as a software
+						developer.
+					</p>
+					<p>
+						This site is a single page, to learn more keep scrolling or use
+						navigation bar.
+					</p>
+				</div>
+			</section>
+			<!-- end of ABOUT -->
+			<!-- //  PROJECTS  // -->
+			<section id="projects" class="project">
+				<h2>Projects</h2>
+				<p>A selection of projects.</p>
+
+				<!-- Add more projects by copying the whole <section> block. -->
+				<section class="project__item">
+					<img
+						src="../images/pomodoro_timer_thumbnail.png"
+						alt="Picture of the pomodoro timer project"
+					/>
+
+					<div class="project-details">
+						<h3>Pomodoro timer</h3>
+						<p>
+							This is a pomodoro timer. It displays focus and break times during
+							the working day.
+						</p>
+						<a
+							class="btn"
+							href="https://mark-grayson1.github.io/pomodoro_timer/"
+							target="_blank"
+							>Link to live demo</a
+						>
+					</div>
+				</section>
+				<section class="project__item">
+					<img
+						src="../images/pomodoro_timer_thumbnail.png"
+						alt="Picture of the pomodoro timer project"
+					/>
+
+					<div class="project-details">
+						<h3>Pomodoro timer</h3>
+						<p>
+							This is a pomodoro timer. It displays focus and break times during
+							the working day.
+						</p>
+						<a
+							class="btn"
+							href="https://mark-grayson1.github.io/pomodoro_timer/"
+							target="_blank"
+							>Link to live demo</a
+						>
+					</div>
+				</section>
+				<section class="project__item">
+					<img
+						src="../images/web_code_editor_thumbnail_200px.png"
+						alt="Picture of the web code editor project"
+					/>
+
+					<div class="project-details">
+						<h3>Web Code Editor</h3>
+						<p>
+							This is a code editor for HTML, CSS and Javascript. That will
+							display a preview of your code like a browser would.
+						</p>
+						<a
+							class="btn"
+							href="https://mark-grayson1.github.io/code-editor/"
+							target="_blank"
+							>Link to live demo</a
+						>
+					</div>
+				</section>
+			</section>
+			<!-- end of PROJECTS -->
+		</main>
+	</body>
 </html>
