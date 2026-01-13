@@ -1,3 +1,5 @@
+@use "./mixins";
+
 .nav {
 	background: var(--color-dark);
 	position: fixed;
@@ -7,8 +9,7 @@
 	height: 60px;
 
 	&__list {
-		display: flex;
-		justify-content: center;
+		@include mixins.flex-center;
 	}
 
 	&__list a {
@@ -25,8 +26,6 @@
 	}
 
 	&__reset {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
+		@include mixins.list-reset;
 	}
 }

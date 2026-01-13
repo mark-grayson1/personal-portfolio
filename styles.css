@@ -144,33 +144,24 @@ h4 {
     display: flex;
   }
 }
-footer {
+.footer {
   text-align: center;
   padding: 40px;
-}
-
-.socials-list {
-  display: flex;
-  justify-content: center;
-}
-
-.socials-list img {
-  width: 35px;
-}
-
-.copyright {
-  font-size: var(--font-size-small);
-}
-
-.bg-dark {
   background: var(--color-dark);
   color: var(--color-light);
 }
-
-.list-reset {
+.footer__list {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.footer__image {
+  width: 35px;
+}
+.footer__copyright {
+  font-size: var(--font-size-small);
 }
 
 /*# sourceMappingURL=styles.css.map */

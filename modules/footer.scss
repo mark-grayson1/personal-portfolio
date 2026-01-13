@@ -1,25 +1,21 @@
-footer {
+@use "./mixins";
+
+.footer {
 	text-align: center;
 	padding: 40px;
-}
-.socials-list {
-	display: flex;
-	justify-content: center;
-}
-.socials-list img {
-	width: 35px;
-}
-.copyright {
-	font-size: var(--font-size-small);
-}
-
-.bg-dark {
 	background: var(--color-dark);
 	color: var(--color-light);
-}
 
-.list-reset {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	&__list {
+		@include mixins.list-reset;
+		@include mixins.flex-center;
+	}
+
+	&__image {
+		width: 35px;
+	}
+
+	&__copyright {
+		font-size: var(--font-size-small);
+	}
 }

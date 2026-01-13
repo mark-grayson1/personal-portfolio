@@ -3,3 +3,14 @@
 	margin: 0 auto;
 	padding: 60px;
 }
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+}
+
+@mixin list-reset {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
