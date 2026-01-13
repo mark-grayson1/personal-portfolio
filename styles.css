@@ -146,54 +146,46 @@ h4 {
     display: flex;
   }
 }
-.bg-light {
-  background: var(--color-light);
-  color: var(--color-dark);
-}
-
-.content-wrap {
+.cv {
   max-width: 800px;
   margin: 0 auto;
   padding: 60px;
-}
-
-.cv.content-wrap {
+  background: var(--color-light);
+  color: var(--color-dark);
   max-width: 1000px;
   margin-bottom: 30px;
 }
-
-.cv-container {
+.cv__contents {
   margin-top: 15px;
 }
-
-.cv h4 {
+.cv__position {
   margin-top: 20px;
 }
 
-.job-item,
+.job,
 .school-item {
   margin-bottom: 25px;
 }
 
-.organization,
+.job__organization,
 .degree-field {
   font-style: italic;
 }
 
-.organization,
-.dates-worked {
+.job__organization,
+.job__dates-worked {
   margin: 0;
 }
 
-.position,
-.organization,
-.dates-worked,
+.job__position,
+.job__organization,
+.job__dates-worked,
 .school {
   color: var(--color-primary);
 }
 
 @media screen and (min-width: 900px) {
-  .cv-container {
+  .cv__contents {
     display: grid;
     grid-template-columns: 300px 1fr;
     grid-template-rows: 225px 1fr;

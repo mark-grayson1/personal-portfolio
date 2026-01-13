@@ -1,45 +1,45 @@
-.bg-light {
+@use "./mixins";
+
+.cv {
+	@include mixins.default-wrap;
 	background: var(--color-light);
 	color: var(--color-dark);
-}
-
-.content-wrap {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 60px;
-}
-
-.cv.content-wrap {
 	max-width: 1000px;
 	margin-bottom: 30px;
+
+	&__contents {
+		margin-top: 15px;
+	}
+
+	&__position {
+		margin-top: 20px;
+	}
 }
-.cv-container {
-	margin-top: 15px;
-}
-.cv h4 {
-	margin-top: 20px;
-}
-.job-item,
+
+.job,
 .school-item {
 	margin-bottom: 25px;
 }
-.organization,
+
+.job__organization,
 .degree-field {
 	font-style: italic;
 }
-.organization,
-.dates-worked {
+
+.job__organization,
+.job__dates-worked {
 	margin: 0;
 }
-.position,
-.organization,
-.dates-worked,
+
+.job__position,
+.job__organization,
+.job__dates-worked,
 .school {
 	color: var(--color-primary);
 }
 
 @media screen and (min-width: 900px) {
-	.cv-container {
+	.cv__contents {
 		display: grid;
 		grid-template-columns: 300px 1fr;
 		grid-template-rows: 225px 1fr;
@@ -55,6 +55,7 @@
 		border-bottom: 1px solid var(--color-primary);
 	}
 }
+
 @media screen and (max-width: 899px) {
 	.cv h3 {
 		border-bottom: 1px solid var(--color-primary);
