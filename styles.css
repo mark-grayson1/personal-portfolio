@@ -7,8 +7,8 @@
   --color-dark: var(--darkgray);
   --color-light: var(--whitesmoke);
   --color-primary: var(--darkslateblue);
-  --font-size-h1: 3rem;
-  --font-size-h2: 2rem;
+  --font-size-h1: 4rem;
+  --font-size-h2: 2.5rem;
   --font-size-base: 0.9375rem;
   --font-size-tagline: 1.75rem;
   --font-size-small: 0.7rem;
@@ -95,7 +95,7 @@ h4 {
   padding: 0;
 }
 
-header {
+.header {
   height: 100%;
   background-image: linear-gradient(rgba(72, 61, 139, 0.5), rgba(72, 61, 139, 0.5)), url(https://mark-grayson1.github.io/personal-portfolio/images/snowdon.jpg);
   background-repeat: no-repeat;
@@ -106,6 +106,10 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+.header__tagline {
+  font-size: var(--font-size-tagline);
+  margin: 0;
 }
 
 .about {
