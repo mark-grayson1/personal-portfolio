@@ -10,6 +10,7 @@
 
 	&__list {
 		@include mixins.flex-center;
+		@include mixins.list-reset;
 	}
 
 	&__list a {
@@ -23,9 +24,5 @@
 
 	&__list a:hover {
 		text-decoration: underline;
-	}
-
-	&__reset {
-		@include mixins.list-reset;
 	}
 }

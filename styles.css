@@ -77,6 +77,9 @@ h4 {
 .nav__list {
   display: flex;
   justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .nav__list a {
   color: var(--color-light);
@@ -88,11 +91,6 @@ h4 {
 }
 .nav__list a:hover {
   text-decoration: underline;
-}
-.nav__reset {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .header {
@@ -115,7 +113,6 @@ h4 {
 .about {
   color: var(--color-light);
   background: var(--color-primary);
-  color: var(--color-light);
 }
 .about__wrap {
   max-width: 800px;
