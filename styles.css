@@ -180,7 +180,8 @@ h4 {
 .job__position,
 .job__organization,
 .job__dates-worked,
-.education__school {
+.skill__type,
+.education__university {
   color: var(--color-primary);
 }
 
@@ -188,7 +189,7 @@ h4 {
   .cv__contents {
     display: grid;
     grid-template-columns: 300px 1fr;
-    grid-template-rows: 225px 1fr;
+    grid-template-rows: auto auto;
     gap: 30px;
   }
   .work-experience {
@@ -197,7 +198,7 @@ h4 {
     border-left: 1px solid var(--color-primary);
     padding-left: 30px;
   }
-  .profile {
+  .skills {
     border-bottom: 1px solid var(--color-primary);
   }
 }
