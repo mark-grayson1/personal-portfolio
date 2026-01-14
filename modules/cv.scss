@@ -17,12 +17,12 @@
 }
 
 .job,
-.school-item {
+.education__section {
 	margin-bottom: 25px;
 }
 
 .job__organization,
-.degree-field {
+.education__degree {
 	font-style: italic;
 }
 
@@ -34,7 +34,7 @@
 .job__position,
 .job__organization,
 .job__dates-worked,
-.school {
+.education__school {
 	color: var(--color-primary);
 }
 
